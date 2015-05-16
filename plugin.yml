@@ -1,0 +1,17 @@
+name: Einstein
+main: com.doctorwood73.einstein.main.Einstein
+version: 0.0.1
+depend: [NPCLib, PacketListenerApi]
+commands:
+   einstein:
+      description:
+         spawns a new einstein at your location
+      usage:
+         /<command> <npc name> <brain>
+   brains:
+      description:
+         lists all brains available
+      aliases:
+         [brain]
+      usage:
+         /<command>
