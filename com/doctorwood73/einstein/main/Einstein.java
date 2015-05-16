@@ -105,7 +105,7 @@ public class Einstein extends JavaPlugin {
 		
 		Config.readData();
 		new Chat(Einstein.this);
-		brains = Brain.getBrains();//ERROR
+		brains = Brain.getBrains();
 		npcListData = NPCData.loadNPCData();
 		npcList = NPCUtil.generateNPCs(npcListData);
 		new NPCLook(npcList);
